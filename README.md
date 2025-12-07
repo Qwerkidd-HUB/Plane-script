@@ -6,8 +6,10 @@ if you want to add "plane" script in your own GUI, you can copy this script!
 ----------------------------------------------------------------------------------------------Script!
 
 
+local button = script.Parent
 
-function click()
+button.MouseButton1Click:Connect(function()
+
 	repeat wait() until game:IsLoaded() and game:service("Players").LocalPlayer.Character ~= nil;
 	wait(0.4) 
 	for i, v in pairs(game:service("Players").LocalPlayer.Character:children()) do 
@@ -361,11 +363,4 @@ function click()
 	-- 138098590 -- plane destroyed sound 
 	-- 133082569 -- propeller 2 
 	-- 135645246 -- propeller 1 
---[[ Possible Game names 
-Aeroscape
-Airbound
-Aerialtude
-]]
-end
-
-script.Parent.MouseButton1Down:connect(click)
+end)
