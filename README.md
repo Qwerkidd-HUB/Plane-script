@@ -1,6 +1,7 @@
 # Plane-script
 if you want to add "plane" script in your own GUI, you can copy this script!
 ---read this!
+ATTENTION!!! WRITE : end)
 😎Script common, To make the script work, you need to add the click function. But it's already there.
 🤔How to exploit? EASY! example: 1. create localscript in button. 2. Past your script into localSCRIPT
 ----------------------------------------------------------------------------------------------Script!
