@@ -362,5 +362,4 @@ button.MouseButton1Click:Connect(function()
 
 	-- 138098590 -- plane destroyed sound 
 	-- 133082569 -- propeller 2 
-	-- 135645246 -- propeller 1 
 end)
