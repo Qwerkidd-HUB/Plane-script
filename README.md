@@ -4,6 +4,11 @@ if you want to add "plane" script in your own GUI, you can copy this script!
 😎Script common, To make the script work, you need to add the click function. But it's already there.
 🤔How to exploit? EASY! example: 1. create localscript in button. 2. Past your script into localSCRIPT
 ----------------------------------------------------------------------------------------------Script!
+
+
+
+
+
 function click()
 	repeat wait() until game:IsLoaded() and game:service("Players").LocalPlayer.Character ~= nil;
 	wait(0.4) 
