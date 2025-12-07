@@ -7,8 +7,6 @@ if you want to add "plane" script in your own GUI, you can copy this script!
 
 
 
-
-
 function click()
 	repeat wait() until game:IsLoaded() and game:service("Players").LocalPlayer.Character ~= nil;
 	wait(0.4) 
